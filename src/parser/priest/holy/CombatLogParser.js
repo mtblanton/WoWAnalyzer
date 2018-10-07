@@ -56,8 +56,8 @@ class CombatLogParser extends CoreCombatLogParser {
 
     // Features
     alwaysBeCasting: AlwaysBeCasting,
-    checklist: Checklist,
     cooldownThroughputTracker: CooldownThroughputTracker,
+    checklist: Checklist,
     spellUsable: SpellUsable,
     healingReceived: HealingReceived,
     healingTargetTracker: HealingTargetTracker,

@@ -36,7 +36,6 @@ class CombatLogParser extends CoreCombatLogParser {
     prePullCooldowns: PrePullCooldowns,
 
     // Features
-    checklist: Checklist,
     alwaysBeCasting: AlwaysBeCasting,
     abilities: Abilities,
     cooldownThroughputTracker: CooldownThroughputTracker,
@@ -48,6 +47,7 @@ class CombatLogParser extends CoreCombatLogParser {
     arcaneChargeTracker: ArcaneChargeTracker,
     arcanePower: ArcanePower,
     arcaneMissiles: ArcaneMissiles,
+    checklist: Checklist,
 
     // Talents
     arcaneFamiliar: ArcaneFamiliar,

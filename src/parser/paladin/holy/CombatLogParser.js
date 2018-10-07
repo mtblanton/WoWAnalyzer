@@ -75,11 +75,11 @@ class CombatLogParser extends CoreCombatLogParser {
     spellManaCost: SpellManaCost,
 
     // Features
-    checklist: Checklist,
     abilities: Abilities,
     masteryEffectiveness: MasteryEffectiveness,
     alwaysBeCasting: AlwaysBeCasting,
     cooldownThroughputTracker: CooldownThroughputTracker,
+    checklist: Checklist,
     statValues: StatValues,
 
     // Racials

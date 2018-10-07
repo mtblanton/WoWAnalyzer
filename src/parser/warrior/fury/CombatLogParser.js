@@ -22,11 +22,11 @@ class CombatLogParser extends CoreCombatLogParser {
   static specModules = {
     damageDone: [DamageDone, {showStatistic: true}],
 
-    checklist: Checklist,
     abilities: Abilities,
     alwaysBeCasting: AlwaysBeCasting,
     cooldownThroughputTracker: CooldownThroughputTracker,
     spellUsable: SpellUsable,
+    checklist: Checklist,
 
     enrageUptime: EnrageUptime,
     frothingBerserkerUptime: FrothingBerserkerUptime,

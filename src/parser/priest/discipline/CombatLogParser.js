@@ -71,9 +71,6 @@ class CombatLogParser extends CoreCombatLogParser {
     channeling: Channeling,
     globalCooldown: GlobalCooldown,
 
-    // Features
-    checklist: Checklist,
-
     // Abilities
     penance: Penance,
     alwaysBeCasting: AlwaysBeCasting,
@@ -85,6 +82,9 @@ class CombatLogParser extends CoreCombatLogParser {
     powerWordBarrier: PowerWordBarrier,
     lenience: Lenience,
     purgeTheWicked: PurgeTheWicked,
+
+    // Features
+    checklist: Checklist,
 
     // Items:
     cordOfMaiev: CordOfMaiev,

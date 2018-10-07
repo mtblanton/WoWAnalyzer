@@ -67,9 +67,6 @@ class CombatLogParser extends CoreCombatLogParser {
     rejuvenation: Rejuvenation,
     mastery: Mastery,
 
-    // Checklist
-    checklist: Checklist,
-
     // Hot Tracking
     hotTracker: HotTracker,
     rejuvenationAttributor: RejuvenationAttributor,
@@ -91,6 +88,9 @@ class CombatLogParser extends CoreCombatLogParser {
     ironbark: Ironbark,
     naturesEssence: NaturesEssence,
     manaUsage: ManaUsage,
+
+    // Checklist
+    checklist: Checklist,
 
     // Talents
     stonebark: Stonebark,

@@ -27,8 +27,6 @@ import ColdSnap from './modules/cooldowns/ColdSnap';
 
 class CombatLogParser extends CoreCombatLogParser {
   static specModules = {
-    checklist: Checklist,
-
     // Normalizers
     prePullCooldowns: PrePullCooldowns,
 
@@ -48,6 +46,7 @@ class CombatLogParser extends CoreCombatLogParser {
     arcaneIntellect: ArcaneIntellect,
     splittingIce: SplittingIce,
     boneChilling: BoneChilling,
+    checklist: Checklist,
 
     //Traits
     wintersReach: WintersReach,

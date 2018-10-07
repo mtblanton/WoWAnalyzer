@@ -182,9 +182,7 @@ class Cooldown extends React.Component {
                         <Icon icon={event.ability.abilityIcon} alt={event.ability.name} style={{ height: 23, marginRight: 4 }} /> {event.ability.name}
                       </SpellLink>
                       {event.type === 'heal' && (
-                        <span>
-                          <span className="grouped-heal-meta amount"> x {event.count}</span>
-                        </span>
+                        <span className="grouped-heal-meta amount"> x {event.count}</span>
                       )}
                     </div>
                     {event.type === 'heal' && (

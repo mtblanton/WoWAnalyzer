@@ -44,13 +44,13 @@ class CombatLogParser extends MainCombatLogParser {
     solarEmpowermentNormalizer: SolarEmpowermentNormalizer,
 
     //Features
-    checklist: Checklist,
     alwaysBeCasting: AlwaysBeCasting,
     cancelledCasts: CancelledCasts,
     abilities: Abilities,
     lunarEmpowerment: LunarEmpowerment,
     solarEmpowerment: SolarEmpowerment,
     cooldownThroughputTracker: CooldownThroughputTracker,
+    checklist: Checklist,
     moonfireUptime: MoonfireUptime,
     sunfireUptime: SunfireUptime,
     unempoweredLunarStrike: UnempoweredLunarStrike,

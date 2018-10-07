@@ -35,9 +35,6 @@ class CombatLogParser extends CoreCombatLogParser {
     pyroclasmBuff: PyroclasmBuff,
     prePullCooldowns: PrePullCooldowns,
 
-    //Checklist
-    checklist: Checklist,
-
     // Features
     alwaysBeCasting: AlwaysBeCasting,
     abilities: Abilities,
@@ -52,6 +49,9 @@ class CombatLogParser extends CoreCombatLogParser {
     heatingUp: HeatingUp,
     pyroclasm: Pyroclasm,
     searingTouch: SearingTouch,
+
+    //Checklist
+    checklist: Checklist,
 
     // Talents
     mirrorImage: MirrorImage,
